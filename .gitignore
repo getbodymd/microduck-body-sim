@@ -1,0 +1,13 @@
+# Private key — controls your getbody owner identity. NEVER commit it.
+fleet_agent.json
+
+# Local state (body_id/listing_id bookkeeping) — not secret, but machine-specific.
+.deployer-state.json
+
+# Never commit a preview key, token, or any other credential.
+.env
+*.env
+
+.venv/
+__pycache__/
+*.pyc
